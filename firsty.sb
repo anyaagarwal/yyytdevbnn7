@@ -1,0 +1,47 @@
+
+TextWindow.WriteLine("enter if '1>2'is true or false")
+a= TextWindow.Read()
+
+If a = "true" Then
+  TextWindow.WriteLine("wrong")
+Else
+  TextWindow.WriteLine("right")
+EndIf
+
+TextWindow.WriteLine("enter if '100000>77777'is true or false")
+b= TextWindow.Read()
+
+If b = "true" Then
+  TextWindow.WriteLine("right")
+Else
+  TextWindow.WriteLine("wrong")
+EndIf
+
+TextWindow.WriteLine("enter if '100>2'is true or false")
+c= TextWindow.Read()
+
+If c = "true" Then
+  TextWindow.WriteLine("right")
+Else
+  TextWindow.WriteLine("wrong")
+EndIf
+
+TextWindow.WriteLine("enter if '90>777'is true or false")
+d= TextWindow.Read()
+
+If d = "true" Then
+  TextWindow.WriteLine("wrong")
+Else
+  TextWindow.WriteLine("right")
+EndIf
+
+TextWindow.WriteLine("enter if '0.34>2'is true or false")
+e= TextWindow.Read()
+
+If e = "true" Then
+  TextWindow.WriteLine("wrong")
+Else
+  TextWindow.WriteLine("right")
+EndIf
+
+
